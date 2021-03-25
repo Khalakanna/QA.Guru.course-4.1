@@ -34,7 +34,6 @@ public class FormPage {
         $(".react-datepicker__year-select").selectOptionByValue("1991");
         $("[aria-label='Choose Friday, August 30th, 1991']").click();
         $("#subjectsInput").setValue(subject).pressEnter();
-        $("#subjectsInput").setValue(subject).pressEnter();
         $("[for='hobbies-checkbox-3']").click();
         $("#uploadPicture").uploadFromClasspath("testing.gif");
         $("#currentAddress").setValue(address);
