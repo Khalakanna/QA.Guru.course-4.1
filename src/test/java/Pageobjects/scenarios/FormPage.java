@@ -1,4 +1,4 @@
-package Pageobjects;
+package Pageobjects.scenarios;
 
 import com.github.javafaker.Faker;
 import static com.codeborne.selenide.Condition.text;
